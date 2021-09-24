@@ -4,38 +4,65 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
     <title>Plants and Things</title>
   </head>
   <body>
-    <img src="images/logo.png" alt="plants and things logo" />
-    <h1>Plants and Things</h1>
-    <nav>
-      <button>Home</button>
-      <button>Contact</button>
-    </nav>
-    <section>
-        <h2>Products</h2>
+    <div class="page-container">
+      <img
+        class="main-logo"
+        src="images/logo.png"
+        alt="plants and things logo"
+      />
+      <h1 class="hide">Plants and Things</h1>
+      <nav>
+        <button class="nav-button" name="home">Home</button>
+        <button class="nav-button" name="contact">Contact</button>
+      </nav>
+      <section>
+        <h2 class="hide">Products</h2>
         <div>
-            <h3>String of Fishhooks 6 Inch Unpotted</h3>
-            <img src="images/product-string-of-fishhooks.jpg" alt="string of fishhooks pot plant">
-            <p>$30.00</p>
-            <button>Buy Now</button>
-            <button>Add to Cart</button>
+          <img
+            class="product-image"
+            src="images/product-string-of-fishhooks.jpg"
+            alt="string of fishhooks pot plant"
+          />
+          <h3 class="product-title">String of Fishhooks 6 Inch Unpotted</h3>
+          <p class="price">$30.00</p>
+          <button class="product-button">Buy Now</button>
+          <button class="product-button">Add to Cart</button>
         </div>
         <div>
-            <h3>Tradescantia Nanouk 2 Inch In Ceramic Pot</h3>
-            <img src="images/product-tradescantia.jpg" alt="tradescantia pot plant">
-            <p>$17.00</p>
-            <button>Buy Now</button>
-            <button>Add to Cart</button>
+          <img
+            class="product-image"
+            src="images/product-tradescantia.jpg"
+            alt="tradescantia pot plant"
+          />
+          <h3 class="product-title">
+            Tradescantia Nanouk 2 Inch In Ceramic Pot
+          </h3>
+          <p class="price">$17.00</p>
+          <button class="product-button">Buy Now</button>
+          <button class="product-button">Add to Cart</button>
         </div>
         <div>
-            <h3>String of Dolphins 2 Inch Unpotted</h3>
-            <img src="images/product-string-of-dolphins.jpg" alt="string of dolphins plant">
-            <p>$8.00</p>
-            <button>Buy Now</button>
-            <button>Add to Cart</button>
+          <img
+            class="product-image"
+            src="images/product-string-of-dolphins.jpg"
+            alt="string of dolphins plant"
+          />
+          <h3 class="product-title">String of Dolphins 2 Inch Unpotted</h3>
+          <p class="price">$8.00</p>
+          <button class="product-button">Buy Now</button>
+          <button class="product-button">Add to Cart</button>
         </div>
-    </section>
+      </section>
+    </div>
   </body>
 </html>

@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.hide {
+    display: none;
+}
+.nav-button {
+    display: block;
+}
+.page-container {
+  display: grid;
+  justify-items: center;
+  font-family: 'Montserrat', sans-serif;
+}
+.main-logo {
+  width: 10rem;
+  height: auto;
+}
+.product-image {
+    width: 10rem;
+    height: auto;
+}
+.product-title {
+    font-size: 1.5rem;
+}
