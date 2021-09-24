@@ -25,15 +25,17 @@
   background-color: #3f6660;
   color: #fefffe;
   font-size: 1.2rem;
-  margin: 1rem;
+  margin-top: 1rem;
   width: 6rem;
   padding: 0.5rem;
+  padding-bottom: 0.6rem;
   border-radius: 0.4rem;
+  font-family: 'Open Sans', sans-serif;
 }
 .page-container {
   display: grid;
   justify-items: center;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 .logo-container {
   display: flex;
@@ -43,7 +45,7 @@
   width: 100vw;
 }
 .main-logo {
-  width: 17rem;
+  width: 49vw;
   height: auto;
 }
 .product-image {
