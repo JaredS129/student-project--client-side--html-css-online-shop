@@ -6,28 +6,41 @@
 .hide {
   display: none;
 }
+.header {
+  display: grid;
+}
+.products {
+  display: grid;
+}
 .nav {
   display: grid;
   width: 100%;
   justify-items: center;
   text-align: center;
-  background-color: #3F6660;
+  background-color: #fefffe;
 }
 .nav-button {
   display: block;
   border: none;
-  background-color: #8BDF83;
-  color: #FEFFFE;
-  font-size: 1.5rem;
+  background-color: #3f6660;
+  color: #fefffe;
+  font-size: 1.2rem;
   margin: 1rem;
-  width: 8rem;
-  padding: 1rem;
+  width: 6rem;
+  padding: 0.5rem;
   border-radius: 0.4rem;
 }
 .page-container {
   display: grid;
   justify-items: center;
   font-family: "Montserrat", sans-serif;
+}
+.logo-container {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  background-color: #3f6660;
+  width: 100vw;
 }
 .main-logo {
   width: 17rem;
