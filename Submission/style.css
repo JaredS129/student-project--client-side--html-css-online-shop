@@ -14,28 +14,33 @@
 }
 .nav {
   display: grid;
-  width: 100%;
   justify-items: center;
   text-align: center;
   background-color: #fefffe;
 }
 .nav-button {
   display: block;
-  border: none;
-  background-color: #3f6660;
-  color: #fefffe;
+  background-color: #fefffe;
+  color: #3f6660;
+  border: 1.5px solid #3f6660;
   font-size: 1.2rem;
   margin-top: 1rem;
-  width: 6rem;
-  padding: 0.5rem;
+  padding: 0.5rem 1rem;
   padding-bottom: 0.6rem;
   border-radius: 0.4rem;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
+  cursor: pointer;
+  transition: 200ms;
+}
+.nav-button:hover {
+    background-color: #3f6660;
+    color: #fefffe;
+    
 }
 .page-container {
   display: grid;
   justify-items: center;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 .logo-container {
   display: flex;
