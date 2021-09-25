@@ -10,6 +10,7 @@
   display: grid;
   justify-items: center;
   font-family: "Open Sans", sans-serif;
+  background-color: #f9f6ee;
 }
 .header {
   display: grid;
@@ -21,18 +22,17 @@
   display: grid;
   justify-items: center;
   text-align: center;
-  background-color: #fefffe;
 }
 .nav-button {
   display: block;
   background-color: #fefffe;
   color: #3f6660;
-  border: 1.5px solid #3f6660;
+  border: 1px solid #3f6660;
   font-size: 1.2rem;
   margin-top: 1rem;
   padding: 0.5rem 1rem;
   padding-bottom: 0.6rem;
-  border-radius: 0.4rem;
+  border-radius: 0.3rem;
   font-family: "Open Sans", sans-serif;
   cursor: pointer;
   transition: 200ms;
@@ -42,8 +42,15 @@
   color: #fefffe;
 }
 .product {
-    border-style: solid;
-    margin-top: 2rem;
+  margin-top: 2rem;
+  background-color: #fefffe;
+  width: 95vw;
+  min-width: 22rem;
+  max-width: 33rem;
+  border-radius: 1rem;
+  padding: 2rem;
+  box-shadow: 9px 10px 22px rgb(63 102 96 / 15%);
+  color: #3f6660;
 }
 .logo-container {
   display: flex;
