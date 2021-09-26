@@ -56,7 +56,7 @@
   background-color: #8bdf83;
   color: #fefffe;
 }
-.products-container {git 
+.products-container {
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 1rem 1rem;
