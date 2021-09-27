@@ -3,9 +3,11 @@
   margin: 0;
   box-sizing: border-box;
 }
+/* used to hide elements */
 .hide {
   display: none;
 }
+/* main page container */
 .page-container {
   display: grid;
   width: 100%;
@@ -14,6 +16,7 @@
   background-color: #f7f7f7;
   min-width: 26.7rem;
 }
+/* holds logo and nav */
 .header {
   display: grid;
 }
@@ -22,6 +25,7 @@
   justify-items: center;
   text-align: center;
 }
+/* main button styles */
 .button {
   display: block;
   background-color: #3f6660;
@@ -41,6 +45,7 @@
   color: #3f6660;
   border: 1px solid #3f6660;
 }
+/* additive styling for product buttons */
 .p-button {
   border: none;
   font-size: 1.12rem;
@@ -53,12 +58,14 @@
   color: #fefffe;
   border: none;
 }
+/* main container for all products */
 .products-container {
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 1rem 1rem;
   margin-bottom: 10rem;
 }
+/* main container for singular product */
 .product {
   grid-gap: 1rem 1rem;
   margin-top: 1.2rem;
@@ -85,6 +92,7 @@
   height: 6.5rem;
   object-fit: cover;
 }
+/* heading text for product */
 .product-heading {
   display: inline-block;
   margin-top: 0.5rem;
@@ -98,6 +106,7 @@
 .product-heading:hover {
   color: #8bdf83;
 }
+/* use this one to resize product image */
 .product-image-container {
   border-radius: 0.2rem;
   margin-right: 4.7rem;
@@ -112,12 +121,13 @@
   height: auto;
   border-radius: 0.3rem;
 }
+/* text underneath heading for product */
 .product-subheading {
   display: inline;
   font-weight: 200;
   font-size: 1.43rem;
 }
-.h-divider {
+.horizontal-divider {
   border: none;
   height: 1px;
   background-color: #8bdf83;
@@ -135,4 +145,12 @@
 }
 .price span {
   font-size: 2.6rem;
+}
+
+/* product page classes below
+   -------------------------- */
+
+.product-description {
+  font-size: 1.125rem;
+  line-height: 1.6;
 }
