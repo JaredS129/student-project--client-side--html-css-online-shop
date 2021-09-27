@@ -52,6 +52,8 @@
   width: 8.3rem;
   background-color: #727272;
   align-self: center;
+  margin-top: 0;
+  margin-bottom: 0.7rem;
 }
 .p-button:hover {
   background-color: #8bdf83;
@@ -142,6 +144,7 @@
   font-size: 3.5rem;
   font-weight: 100;
   margin-bottom: 0.2rem;
+  margin-top: -0.5rem;
 }
 .price span {
   font-size: 2.6rem;
@@ -167,6 +170,7 @@
   grid-template-columns: min-content min-content;
   grid-gap: 0.7rem;
   justify-content: end;
+  margin-top: 2rem;
   margin-bottom: 1.5rem;
 }
 .buy {
