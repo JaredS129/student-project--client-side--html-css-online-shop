@@ -10,15 +10,18 @@
 /* main page container */
 .page-container {
   display: grid;
-  width: 100%;
+  width: 100vw;
   justify-items: center;
   font-family: "Poppins", sans-serif;
   background-color: #f7f7f7;
-  min-width: 26.7rem;
+  min-width: 23.5rem;
 }
 /* holds logo and nav */
 .header {
   display: grid;
+  grid-template-columns: 1fr;
+  width: 100vw;
+  min-width: 23.5rem;
 }
 .nav {
   display: grid;
@@ -65,7 +68,10 @@
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 1rem 1rem;
+  justify-self: center;
   margin-bottom: 10rem;
+  width: 80vw;
+  min-width: 23.5rem;
 }
 /* main container for singular product */
 .product {
@@ -73,8 +79,7 @@
   margin-top: 1.2rem;
   padding: 1.9rem;
   padding-bottom: 0.4rem;
-  width: 100vw;
-  min-width: 26.7rem;
+  min-width: 23.5rem;
   max-width: 33rem;
   box-shadow: 0px 7px 34px rgb(0 0 0 / 15%);
   background-color: #fefffe;
@@ -86,8 +91,8 @@
   justify-content: center;
   justify-items: center;
   background-color: #3f6660;
-  width: 100vw;
-  min-width: 26.7rem;
+  width: 100%;
+  min-width: 23.5rem;
 }
 .main-logo {
   width: 9.5rem;
@@ -235,7 +240,7 @@
   border-radius: 0.31rem;
 }
 .submit:hover {
-  background-color: #8BDF83;
+  background-color: #8bdf83;
   border: none;
   color: #fefffe;
 }
@@ -253,4 +258,63 @@
 .contact-divider {
   width: 9.2rem;
   margin-top: 0.2rem;
+}
+
+@media only screen and (min-width: 53.3rem) {
+  .product {
+    min-width: 23.5rem;
+  }
+  .products-container {
+    grid-template-columns: 1fr 1fr;
+  }
+  .header {
+    grid-template-columns: 1fr 1fr;
+    background-color: #3f6660;
+    padding: 0.3rem 0.6rem;
+  }
+  .nav {
+    grid-template-columns: min-content min-content;
+    grid-gap: 1.3rem;
+    justify-self: right;
+    padding: 2.8rem;
+    padding-bottom: 4.1rem;
+    padding-right: 5rem;
+  }
+  .button {
+    border: 1px solid #fefffe;
+    padding: 0.3rem 0.6rem;
+  }
+  .main-logo {
+    width: 13.5rem;
+    height: 10.5rem;
+  }
+}
+@media only screen and (min-width: 81rem) {
+  .products-container {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .product {
+    min-width: 23.5rem;
+  }
+  .header {
+    grid-template-columns: 1fr 1fr;
+    background-color: #3f6660;
+    padding: 0.3rem 0.6rem;
+  }
+  .nav {
+    grid-template-columns: min-content min-content;
+    grid-gap: 1.3rem;
+    justify-self: right;
+    padding: 2.8rem;
+    padding-bottom: 4.1rem;
+    padding-right: 5rem;
+  }
+  .button {
+    border: 1px solid #fefffe;
+    padding: 0.3rem 0.6rem;
+  }
+  .main-logo {
+    width: 13.5rem;
+    height: 10.5rem;
+  }
 }
