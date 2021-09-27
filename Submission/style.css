@@ -32,7 +32,7 @@
   color: #fefffe;
   font-size: 1.18rem;
   margin-top: 1rem;
-  padding: 0.2rem 0.7rem;
+  padding: 0.5rem 0.9rem;
   border-radius: 0.18rem;
   font-family: "Poppins", sans-serif;
   font-weight: 200;
@@ -49,7 +49,7 @@
 .p-button {
   border: none;
   font-size: 1.12rem;
-  width: 7.9rem;
+  width: 8.3rem;
   background-color: #727272;
   align-self: center;
 }
@@ -103,7 +103,7 @@
   text-decoration: none;
   transition: 200ms;
 }
-.product-heading:hover {
+.product-heading-home:hover {
   color: #8bdf83;
 }
 /* use this one to resize product image */
@@ -147,10 +147,32 @@
   font-size: 2.6rem;
 }
 
-/* product page classes below
+/* additive product page classes below
    -------------------------- */
 
 .product-description {
   font-size: 1.125rem;
   line-height: 1.6;
+  margin-bottom: 1rem;
+}
+.product-page-image {
+  margin-right: 0rem;
+  cursor: initial;
+}
+.horizontal-divider-product {
+  margin: 0 0 1rem 0;
+}
+.product-page-footer {
+  display: grid;
+  grid-template-columns: min-content min-content;
+  grid-gap: 0.7rem;
+  justify-content: end;
+  margin-bottom: 1.5rem;
+}
+.buy {
+  width: 6.5rem;
+  background-color: #383838;
+}
+.product-page-container {
+  padding-bottom: 10rem;
 }
