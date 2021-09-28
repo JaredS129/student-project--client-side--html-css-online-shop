@@ -3,6 +3,9 @@
   margin: 0;
   box-sizing: border-box;
 }
+body {
+  background-color: #f7f7f7;
+}
 /* used to hide elements */
 .hide {
   display: none;
@@ -13,7 +16,6 @@
   width: 100vw;
   justify-items: center;
   font-family: "Poppins", sans-serif;
-  background-color: #f7f7f7;
   min-width: 23.5rem;
 }
 /* holds logo and nav */
@@ -43,6 +45,7 @@
   cursor: pointer;
   transition: 200ms;
   text-decoration: none;
+  text-align: center;
 }
 .button:hover {
   background-color: #fefffe;
@@ -53,7 +56,7 @@
 .product-button {
   border: none;
   font-size: 1.12rem;
-  width: 8.3rem;
+  width: 8.5rem;
   background-color: #727272;
   align-self: center;
   margin-top: 0;
@@ -184,7 +187,7 @@
   margin-bottom: 1.5rem;
 }
 .buy {
-  width: 6.5rem;
+  width: 6.7rem;
   background-color: #383838;
 }
 .product-page-container {
@@ -200,6 +203,7 @@
   width: 100%;
   padding: 2.6rem;
   padding-bottom: 0;
+  margin-bottom: 10rem;
 }
 .form {
   display: grid;
@@ -295,7 +299,7 @@
     padding: 0.3rem 0.6rem;
   }
   .product-button {
-    width: 7.8rem;
+    width: 8.1rem;
   }
   .main-logo {
     width: 13.5rem;
@@ -306,7 +310,7 @@
     padding-left: 3rem;
   }
   .buy {
-    width: 6rem;
+    width: 6.7rem;
   }
   .contact-container {
     grid-template-columns: 2fr 1fr;
@@ -336,9 +340,9 @@
     background-color: #3f6660;
   }
   .product-button {
-    width: 8rem;
+    width: 8.1rem;
   }
   .buy {
-    width: 6rem;
+    width: 6.3rem;
   }
 }
