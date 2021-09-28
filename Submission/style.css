@@ -23,6 +23,7 @@
   width: 100vw;
   min-width: 23.5rem;
 }
+
 .nav {
   display: grid;
   justify-items: center;
@@ -49,7 +50,7 @@
   border: 1px solid #3f6660;
 }
 /* additive styling for product buttons */
-.p-button {
+.product-button {
   border: none;
   font-size: 1.12rem;
   width: 8.3rem;
@@ -58,7 +59,7 @@
   margin-top: 0;
   margin-bottom: 0.7rem;
 }
-.p-button:hover {
+.product-button:hover {
   background-color: #8bdf83;
   color: #fefffe;
   border: none;
@@ -157,7 +158,11 @@
 
 /* additive product page classes below
    -------------------------- */
-
+.product-page-main {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding-bottom: 1.9rem;
+}
 .product-description {
   font-size: 1.125rem;
   line-height: 1.6;
@@ -259,7 +264,7 @@
   width: 9.2rem;
   margin-top: 0.2rem;
 }
-
+/* tablet styles */
 @media only screen and (min-width: 53.3rem) {
   .product {
     min-width: 23.5rem;
@@ -267,10 +272,16 @@
   .products-container {
     grid-template-columns: 1fr 1fr;
   }
+  .product-page-main {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2.1rem;
+    max-width: none;
+  }
   .header {
     grid-template-columns: 1fr 1fr;
     background-color: #3f6660;
     padding: 0.3rem 0.6rem;
+    max-width: 99rem;
   }
   .nav {
     grid-template-columns: min-content min-content;
@@ -278,43 +289,56 @@
     justify-self: right;
     padding: 2.8rem;
     padding-bottom: 4.1rem;
-    padding-right: 5rem;
+    padding-right: 4.2rem;
   }
   .button {
     border: 1px solid #fefffe;
     padding: 0.3rem 0.6rem;
   }
+  .product-button {
+    width: 7.8rem;
+  }
   .main-logo {
     width: 13.5rem;
     height: 10.5rem;
   }
+  .logo-container {
+    justify-content: left;
+    padding-left: 3rem;
+  }
+  .buy {
+    width: 6rem;
+  }
+  .contact-container {
+    grid-template-columns: 3fr 1fr;
+    max-width: 72.5rem;
+  }
+  .contact-details {
+    margin-top: 1.2rem;
+  }
+  .submit-container {
+    justify-self: left;
+  }
 }
+/* desktop styles */
 @media only screen and (min-width: 81rem) {
   .products-container {
     grid-template-columns: 1fr 1fr 1fr;
   }
   .product {
     min-width: 23.5rem;
+    max-width: 89.5rem;
   }
-  .header {
-    grid-template-columns: 1fr 1fr;
+  .header-green-extension {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
     background-color: #3f6660;
-    padding: 0.3rem 0.6rem;
   }
-  .nav {
-    grid-template-columns: min-content min-content;
-    grid-gap: 1.3rem;
-    justify-self: right;
-    padding: 2.8rem;
-    padding-bottom: 4.1rem;
-    padding-right: 5rem;
+  .product-button {
+    width: 8rem;
   }
-  .button {
-    border: 1px solid #fefffe;
-    padding: 0.3rem 0.6rem;
-  }
-  .main-logo {
-    width: 13.5rem;
-    height: 10.5rem;
+  .buy {
+    width: 6rem;
   }
 }
