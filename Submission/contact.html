@@ -31,22 +31,32 @@
           <!-- this class is used to hide the h1 for semantic purposes -->
           <h1 class="hide">Plants and Things</h1>
           <nav class="nav">
-            <a class="button" href="#" title="home">Home</a>
-            <a class="button" href="#" title="contact">Contact</a>
+            <a class="button" href="index.html" title="home">Home</a>
+            <a class="button" href="contact.html" title="contact">Contact</a>
           </nav>
         </div>
       </header>
       <div class="contact-container">
         <section title="contact form">
           <h2 class="hide">Contact</h2>
-          <form class="form">
+          <form
+            class="form"
+            action="https://formspree.io/f/xdoyjnkn"
+            method="post"
+          >
             <div>
               <label for="name" class="form-label">Name</label>
-              <input type="text" name="name" id="name" class="input" />
+              <input type="text" name="name" id="name" class="input" required />
             </div>
             <div>
               <label for="email" class="form-label">Email</label>
-              <input type="email" name="email" id="email" class="input" />
+              <input
+                type="email"
+                name="email"
+                id="email"
+                class="input"
+                required
+              />
             </div>
             <div class="message-container">
               <label for="message" class="form-label">Message</label>
@@ -54,6 +64,7 @@
                 name="message"
                 id="message"
                 class="input message"
+                required
               ></textarea>
             </div>
             <div class="submit-container">
@@ -64,7 +75,7 @@
           </form>
         </section>
         <section title="contact details" class="contact-details">
-          <h3 class="details-heading">Contact Details</h3>
+          <h3 class="details-heading">Feel free to get in touch anytime</h3>
           <hr class="horizontal-divider contact-divider" />
           <p>
             123 Fake Street<br />

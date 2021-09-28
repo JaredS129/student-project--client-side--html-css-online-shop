@@ -251,7 +251,6 @@
 }
 .contact-details {
   justify-self: left;
-  padding: 2.6rem;
   padding-top: 0;
   font-size: 1rem;
   font-weight: 300;
@@ -261,7 +260,7 @@
   font-weight: 600;
 }
 .contact-divider {
-  width: 9.2rem;
+  width: 19.3rem;
   margin-top: 0.2rem;
 }
 /* tablet styles */
@@ -310,8 +309,9 @@
     width: 6rem;
   }
   .contact-container {
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: 2fr 1fr;
     max-width: 72.5rem;
+    grid-gap: 2.6rem;
   }
   .contact-details {
     margin-top: 1.2rem;
