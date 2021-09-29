@@ -57,11 +57,11 @@ address {
   transition: 200ms;
   text-decoration: none;
   text-align: center;
+  border: 1px solid #3f6660;
 }
 .button:hover {
   background-color: #fefffe;
   color: #3f6660;
-  border: 1px solid #3f6660;
 }
 /* additive styling for product buttons */
 .product-button {
