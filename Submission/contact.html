@@ -32,8 +32,14 @@
           <!-- this class is used to hide the h1 for semantic purposes -->
           <h1 class="hide">Plants and Things</h1>
           <nav class="nav">
-            <a class="button" href="index.html" title="home">Home</a>
-            <a class="button" href="contact.html" title="contact">Contact</a>
+            <ul class="nav-list">
+              <li class="nav-item"><a class="button" href="index.html" title="home">Home</a></li>
+              <li class="nav-item">
+                <a class="button" href="contact.html" title="contact"
+                  >Contact</a
+                >
+              </li>
+            </ul>
           </nav>
         </div>
       </header>
@@ -79,12 +85,12 @@
           <h3 class="details-heading">Feel free to get in touch anytime</h3>
           <hr class="horizontal-divider contact-divider" />
           <p>
-            123 Fake Street<br />
+            <address>Fake Street<br />
             Auckland<br />
-            New Zealand<br /><br />
+            New Zealand<br /><br /></address>
 
-            Phone: <em>09 123 45678</em><br />
-            Email: <em>sales@plantsandthings.co.nz</em>
+            Phone: <a href="tel:09-123-45678"><em>09 123 45678</em></a><br />
+            Email: <a href="mailto:sales@plantsandthings.co.nz"><em>sales@plantsandthings.co.nz</em></a>
           </p>
         </section>
       </div>

@@ -6,6 +6,16 @@
 body {
   background-color: #f7f7f7;
 }
+a {
+  text-decoration: none;
+  color: #383838;
+}
+ul {
+  list-style-type: none;
+}
+address {
+  font-style: normal;
+}
 /* used to hide elements */
 .hide {
   display: none;
@@ -25,11 +35,12 @@ body {
   width: 100vw;
   min-width: 23.5rem;
 }
-
-.nav {
-  display: grid;
-  justify-items: center;
-  text-align: center;
+.nav-list {
+  justify-content: center;
+}
+.nav-item {
+  margin: auto;
+  width: fit-content;
 }
 /* main button styles */
 .button {
@@ -46,7 +57,6 @@ body {
   transition: 200ms;
   text-decoration: none;
   text-align: center;
-  white-space: nowrap;
 }
 .button:hover {
   background-color: #fefffe;
@@ -289,15 +299,20 @@ body {
     padding: 0.3rem 0.6rem;
     max-width: 99rem;
   }
-  .nav {
+  .nav-list {
+    display: grid;
     grid-template-columns: min-content min-content;
     grid-gap: 1.3rem;
+    align-self: center;
     justify-self: right;
-    padding: 2.8rem;
-    padding-bottom: 4.1rem;
-    padding-right: 4.2rem;
+    margin-right: 4.4rem;
+  }
+  .nav {
+    justify-self: end;
+    align-self: center;
   }
   .button {
+    display: inline;
     border: 1px solid #fefffe;
     padding: 0.3rem 0.6rem;
   }
