@@ -253,8 +253,10 @@ address {
 }
 .submit-container {
   justify-self: center;
+  width: 100%;
 }
 .submit {
+  width: 100%;
   margin-top: 0;
   border: none;
   color: #fefffe;
@@ -329,6 +331,9 @@ address {
   }
   .buy {
     width: 6.7rem;
+  }
+  .submit {
+    width: fit-content;
   }
   .contact-container {
     grid-template-columns: 2fr 1fr;
