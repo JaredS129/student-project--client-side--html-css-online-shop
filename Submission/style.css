@@ -222,7 +222,9 @@ address {
 
 /* contact page classes below
    -------------------------- */
-
+.contact {
+  width: 100vw;
+}
 .contact-container {
   display: grid;
   grid-template-columns: 1fr;
@@ -279,7 +281,8 @@ address {
   font-size: 1.5rem;
 }
 .form-divider {
-  width: 25rem;
+  width: 100%;
+  max-width: 25rem;
   margin-top: 0.4rem;
   margin-bottom: 1rem;
 }
