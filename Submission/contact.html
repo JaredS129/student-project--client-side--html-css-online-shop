@@ -21,19 +21,23 @@
         header class has a max-width set -->
       <header class="header-green-extension">
         <div class="header">
-          <div class="logo-container" href="#">
+          <div class="logo-container">
             <!-- resize this containers height and width to resize logo, cropped with object-fit -->
-            <img
-              class="main-logo"
-              src="images/logo-transparent.png"
-              alt="plants and things logo"
-            />
+            <a href="index.html">
+              <img
+                class="main-logo"
+                src="images/logo-transparent.png"
+                alt="plants and things logo"
+              />
+            </a>
           </div>
           <!-- this class is used to hide the h1 for semantic purposes -->
           <h1 class="hide">Plants and Things</h1>
           <nav class="nav">
             <ul class="nav-list">
-              <li class="nav-item"><a class="button" href="index.html" title="home">Home</a></li>
+              <li class="nav-item">
+                <a class="button" href="index.html" title="home">Home</a>
+              </li>
               <li class="nav-item">
                 <a class="button" href="contact.html" title="contact"
                   >Contact</a
@@ -45,12 +49,13 @@
       </header>
       <div class="contact-container">
         <section title="contact form">
-          <h2 class="hide">Contact</h2>
           <form
             class="form"
             action="https://formspree.io/f/xdoyjnkn"
             method="post"
           >
+            <h2 class="form-heading">Feel free to get in touch any time</h2>
+            <hr class="horizontal-divider form-divider" />
             <div>
               <label for="name" class="form-label">Name</label>
               <input type="text" name="name" id="name" class="input" required />
@@ -82,16 +87,22 @@
           </form>
         </section>
         <section title="contact details" class="contact-details">
-          <h3 class="details-heading">Feel free to get in touch anytime</h3>
+          <h3 class="details-heading">Contact Details</h3>
           <hr class="horizontal-divider contact-divider" />
-          <p>
-            <address>Fake Street<br />
-            Auckland<br />
-            New Zealand<br /><br /></address>
+          <div>
+            <address>
+              Fake Street<br />
+              Auckland<br />
+              New Zealand<br /><br />
+            </address>
 
-            Phone: <a href="tel:09-123-45678"><em>09 123 45678</em></a><br />
-            Email: <a href="mailto:sales@plantsandthings.co.nz"><em>sales@plantsandthings.co.nz</em></a>
-          </p>
+            Phone: <a href="tel:09-123-45678"><em>09 123 45678</em></a
+            ><br />
+            Email:
+            <a href="mailto:sales@plantsandthings.co.nz"
+              ><em>sales@plantsandthings.co.nz</em></a
+            >
+          </div>
         </section>
       </div>
     </div>
